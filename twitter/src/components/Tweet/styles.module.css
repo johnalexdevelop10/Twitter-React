@@ -1,0 +1,53 @@
+.tweet{
+    padding: 20px 0;
+    margin: 20px 0;
+    width: 100%;
+    border-top: 1px solid var(--gray-color);
+    border-bottom: 1px solid var(--gray-color);
+  }
+  
+  .header{
+    display: flex;
+    width: 100%;
+  }
+  
+  .header img{
+    margin: 0 20px;
+  
+  }
+  
+  .header span{
+    margin: 0 10px;
+  }
+  
+  .name{
+    font-weight: 800;
+    font-size: 18px;
+  }
+  
+  .gray{
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .children{
+    padding: 10px 20px;
+  }
+  
+  .children p{
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .children img{
+    border-radius: 20px;
+    height: auto;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .list{
+    display: flex;
+    justify-content: space-around;
+  }
